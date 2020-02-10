@@ -27,4 +27,24 @@ public class MusicLibrary{
      }
      return result;
    }
+
+   public int findTitle(String title){
+     for(int i = 0; i< library.length; i++){
+       if(library[i] != null && library[i].getTitle().equals(title));
+     }
+
+   }
+   public int findArtist(String artist){
+     for(int i = 0; i< library.length; i++){
+
+     }
+   }
+   public Album getAlbum(int index){
+     if(index>=0 && index< library.length)
+     return library[index];
+     else{
+       System.out.println("index does not work");
+       return null;
+     }
+   }
 }

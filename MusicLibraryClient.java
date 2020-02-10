@@ -10,19 +10,26 @@ public class MusicLibraryClient {
         myLibrary.add(a2);
 
         System.out.println(myLibrary);
-
-        System.out.println("+++++++++++++++++++++++++++++++++++++++");
 /*
+        System.out.println("+++++++++++++++++++++++++++++++++++++++");
+
         myLibrary.doubleSize();
 
         System.out.println(myLibrary);
 
         System.out.println("+++++++++++++++++++++++++++++++++++++++");
-
+*/
         myLibrary.remove(1);
        myLibrary.add(a3);
        System.out.println(myLibrary);
 
-        System.out.println("+++++++++++++++++++++++++++++++++++++++"); */
+        System.out.println("+++++++++++++++++++++++++++++++++++++++");
+         int loc = myLibrary.findTitle("first");
+        System.out.println("Found 'first' at index:" + loc);
+        System.out.println(myLibrary.getAlbum(loc));
+
+           loc = myLibrary.findTitle("Second");
+        System.out.println("Found 'second' at index:" + loc);
+        System.out.println(myLibrary.getAlbum(loc));
     }
 }
