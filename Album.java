@@ -18,7 +18,7 @@ public String getArtist(){
 }
 public String toString(){
 String result = "";
-result += title + " , by" + artist + " |" + numTracks + "tracks";
+result += title + " , by " + artist + " |" + numTracks + "tracks";
 result += ", Time: " + playTime + "min";
 return result;
 }
