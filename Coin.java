@@ -10,7 +10,7 @@ public Coin(double value, String name) {
 myValue = value;
 myName = name;
 }
- 
+
 public double getValue() {
 return myValue;
 }
@@ -22,5 +22,7 @@ return myName;
 // returns true if this coin is equal to aCoin,
 // which means the name and the value are both equal
 public boolean equals(Coin aCoin) {
-//COMPLETE THIS METHOD!
+if(this.coin == aCoin){
+  return true;
+}
 }
