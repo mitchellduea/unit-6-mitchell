@@ -38,16 +38,22 @@ public class MyArray2DExplorer{
    public int[] colMaxs(int[][]matrix){
      max=0;
      for(int [] : max){
-       for(int n : max){}\
+       for(int n : max)
        if(int n > max)
        return max;
      }
    }
    }
 
-public int[] allRowSums(int[][] data)
-int num =0
-for (int [] row)
+public int[] allRowSums(int[][] data){
+int row =0;
+int [] row = exp.allRowSums(array);
+for(int i = 0; i < row.length; i++){
+  return i;
+  }
+}
+
+
 
 
    public boolean evenRow(int [][] mat, int row){
@@ -60,15 +66,29 @@ for (int [] row)
      }
 
    }
+   public int[] smallEven(int [][] mat){
+int small=1
+     int [] row = exp.smallEven(array);
+     for(int i = 0; i < row.length; i++){
+       for(int i : mat){
+         if(i % 2 = 0 && i< small;)
+            return 1
+            }
+          }
+        }
+      public boolean biggestRow(int [][] mat, int row){
+        int biggestRow= 0
+        int rowSum1= 0
+        int Rowsum2= 0
+      for(int [] row: nums){
+        for(int n : rowSum1)
+        return n;
 
-   //returns true if the sum of the numbers the given col is odd.
-
-   }
-
-
-   public int[] minRow(int [][] mat){
-
-   }
+      }
+      for(int [] row: nums){
+        for(int n : rowSum2)
+        return n;
+ }
 
 
 
