@@ -28,7 +28,13 @@ for(int col= 0; col< list[r].length; col++)
   }
 
   public static void parseIntoArrayList(ArrayList<String> list){
+    
+ ArrayList<String> result = new arrayList<String>();
 
+ for(int n = 0; n < list.size(); l++)
+ for(int col= 0; col< list[r].length; col++)
+
+ return result;
   }
 
 
